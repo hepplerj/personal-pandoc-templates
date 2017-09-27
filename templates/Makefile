@@ -1,3 +1,5 @@
+# A basic Makefile for generating letters
+
 pdfs := $(patsubst %.md,%.md.pdf,$(wildcard *.md))
 
 all: $(pdfs)
