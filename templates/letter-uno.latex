@@ -2,9 +2,9 @@
 \documentclass[$if(lang)$$lang$,$endif$$if(size)$$size$$else$11pt$endif$]{letter}
 
 % Letterhead
-\usepackage[left=1in,right=1in,top=1.2in,bottom=1.1in]{geometry}
+\usepackage[left=1in,right=1in,top=1.5in,bottom=1.1in]{geometry}
 \usepackage{wallpaper}
-\ULCornerWallPaper{1}{/Users/jasonheppler/.pandoc/templates/letterhead-stanford.pdf}
+\ULCornerWallPaper{1}{/Users/jheppler/.pandoc/templates/letterhead-uno.pdf}
 
 \usepackage[default]{sourcesanspro}
 \usepackage[T1]{fontenc}
@@ -183,8 +183,8 @@ $include-after$
 $endfor$
 % \vspace{12pt}
 \closing{$closing$
-  \fromsig{\includegraphics[scale=0.40]{/Users/jasonheppler/.pandoc/templates/heppler-signature.png}}
-  \fromname{\\Jason A. Heppler\\Stanford University}
+  \fromsig{\includegraphics[scale=0.40]{/Users/jheppler/.pandoc/templates/heppler-signature.png}}
+  \fromname{\\Dr. Jason A. Heppler\\University of Nebraska at Omaha}
 }
 
 \end{letter}
